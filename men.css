@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+h1{
+    position: absolute;
+    top: 0;
+    left: 590px;
+    margin-top: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.h{
+    position: sticky;
+    top: 0;
+    padding-left: 600px;
+    background: rgb(221, 170, 170);
+    transition: 0.5s;
+}
+.c1{
+    width: 10%;
+    padding-left: 50px;
+    background: cadetblue;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+button{
+    background-color: aqua;
+}
+.b1{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b1 a{
+    text-decoration: none;
+}
+.b2{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b2 a{
+    text-decoration: none;
+}
+.b3{
+    position: relative;
+    left: -70px;
+    top: 30px;
+}
+.b3 a{
+    text-decoration: none;
+}
+.b4{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b4 a{
+    text-decoration: none;
+}
+.b5{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b5 a{
+    text-decoration: none;
+}
+.b6{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b6 a{
+    text-decoration: none;
+}
+.b7{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b7 a{
+    text-decoration: none;
+}
+.b8{
+    position: relative;
+    left: -60px;
+    top: 30px;
+}
+.b8 a{
+    text-decoration: none;
+}
+.c2{
+   /* height: 170px;
+    width: 130px;
+    background-color: whitesmoke;*/
+    width: 10%;
+    height: 10%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: cadetblue;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.c3{
+    width: 150px;
+    height: 170px;
+    
+    padding-top: 20px;
+    padding-left: 50px;
+    background: cadetblue;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.c4{
+    background: cadetblue;
+    margin-left:20px;
+    margin-right: 20px;
+    padding-top: 23px;
+    height: 170px;
+    width: 120px;
+    padding-bottom: 100px;
+    padding-right: 70px;
+    padding-left: 69px;
+}
+.c5{
+    background: cadetblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-top: 23px;
+    height: 170px;
+    width: 120px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 50px; 
+}
+.c6{
+    background: cadetblue;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 50px;
+    padding-top: 23px;
+    height: 170px;
+    width: 120px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 50px; 
+}
+.c7{
+    background: cadetblue;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 50px;
+    padding-top: 23px;
+    height: 170px;
+    width: 120px;
+    padding-bottom: 100px;
+    padding-right: 80px;
+    padding-left: 70px; 
+}
+.c8{
+    background: cadetblue;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 50px;
+    padding-top: 23px;
+    height: 170px;
+    width: 120px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px; 
+}
+.p1{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p2{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p3{
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p4{
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p5{
+    position: absolute;
+    top: 96%;
+    left: 4%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p6{
+    position: absolute;
+    top: 96%;
+    left: 28%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p7{
+    position: absolute;
+    top: 96%;
+    left: 80%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p8{
+    position: absolute;
+    top: 96%;
+    left: 53%;
+    padding-top: 50px;
+    padding-left: -10px;
+    color: rgb(29, 28, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*media query for screen*/
+@media(max-width:1000px){
+
+    .h{
+        background-color:rgb(221, 170, 170);
+        padding-left: 200px;
+    }
+   /* .c1{
+        width: 10%;
+        padding-left: 50px;
+        background: cadetblue;
+        padding-right: 50px;
+        padding-bottom: 100px;
+        margin-left: 10px;
+        margin-top: 40px;
+        padding-top: 20px;
+        margin-right: 50px;
+    }
+    .p1{
+     
+        position: absolute;
+        top: 25%;
+        left: 4%;
+        padding-top: 50px;
+        padding-left: -30px;
+        color: rgb(29, 28, 27);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .c2{
+       
+         width: 10%;
+         height: 10%;
+         padding-top: 25px;
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-bottom: 100px;
+         margin-left: -45px;
+         margin-top: 50px;
+         background: cadetblue;
+        
+         margin-right: 10px;
+         position: relative;
+         left: 5%;
+         z-index: -1;
+     }
+     .p2{
+     
+        position: absolute;
+        top: 25%;
+        left: 38%;
+        padding-top: 50px;
+        padding-left: -30px;
+        color: rgb(29, 28, 27);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        
+       
+    }
+    .c3{
+        width: 13%;
+        height: 10%;
+        padding-top: 20px;
+        padding-left: 40px;
+        background: cadetblue;
+        padding-bottom: 100px;
+        margin-top: 40px;
+        position: relative;
+        left: 5%;
+        padding-right: 45px;
+        margin-right: 20px;
+       z-index: -1;
+    }
+       
+    
+    .p3{
+        position: absolute;
+        top: 25%;
+        left: 73%;
+        padding-top: 50px;
+        padding-left: -10px;
+        color: rgb(29, 28, 27);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    
+    }
+    .b3{
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+    .b3 a{
+        text-decoration: none;
+    }
+    .c4{
+        background: cadetblue;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 26px;
+        height: 10%;
+        width: 10%;
+        padding-bottom: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+        position: relative;
+        left: -40px;
+        top: 10px;
+        z-index: -1;
+    }
+    .p4{
+        position: absolute;
+        top: 73%;
+        left: 4%;
+        padding-top: 50px;
+        padding-left: -10px;
+        color: rgb(29, 28, 27);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .c5{
+        background: cadetblue;
+        margin-top: 45px;
+        margin-left: 20px;
+        margin-right: 25px;
+        padding-top: 30px;
+        height: 30%;
+        width: 10%;
+        padding-bottom: 110px;
+        padding-right: 65px;
+        padding-left: 60px; 
+        position: relative;
+        left: -15%;
+        z-index: -1;
+    }
+    .p5{
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        padding-top: 50px;
+        padding-left: -10px;
+        color: rgb(29, 28, 27);
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .c6{
+       background: cadetblue;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 50px;
+        padding-top: 23px;
+        height: 10%;
+        width: 10%;
+        padding-bottom: 100px;
+        padding-right: 60px;
+        padding-left: 50px; 
+        background: cadetblue;
+    }
+    */
+}

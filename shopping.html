@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <h3 id="menu">HP SHOES CENTRE</h3>
+    <h5>Stonger Lighter Qualitier</h5>
+    <div class="menu" id="menu" >
+        <div class="sub">
+        <ul>
+            <li><a href="#brands" target="_self"> Brands</a></li>
+            <li><a href="men.html" target="_self">Mens</a></li>
+            <li><a href="#offer" target="_self">Offers</a> </li>
+            <!---- <li><a href="#" target="_self">Kids</a></li>-->
+            <li><a href="#contact" target="_self">Contact</a></li>
+            <li><a href="product.html" target="_self">Purchasing</a></li>
+        </ul>
+    </div>
+    </div>
+     <form action="form" method="get">
+         <div class="get">
+         <input type="email" name="username" id="email" placeholder="Username">
+         <input type="password" name="password" id="pass" placeholder="Password">
+         <button onclick="validate()" type="submit"><a href="#" target="_self" id="submit">Submit</a></button>
+         <a href="mailto:@gmail.com">Create an account?</a>
+                   <h4><span>--------------Or-------------</span></h4>
+       <span> <button><a href="mailto:@gmail.com">Sign in</a> </button></span>
+        </div>
+     </form>
+     <footer>
+             <h2>NIKE Latest Model</h2>
+             <h4>Copyright &copy;<br>
+                Made in India &TRADE;
+             </h4>
+         </p>
+         
+     </footer>
+   
+          
+    <section id="brands">
+              <div class="container">
+                 <span> <h1>ALL BRANDS OF SHOES HERE</h1></span>
+                  <div class="images">
+                      <img src="images/addidhas.png">
+                      <img class="i1" src="images/reebok.jpg">
+                      <img class="i2" src="images/walkaroo.png">
+                      <img class="i3" src="images/puma.jpg"><br><br>
+                  </div>
+              </div>
+    </section> 
+    <section class="s2" id="offer" style="padding-right: 50px;" >
+           <sub>Combo offer</sub>
+          <img class="im1" src="images/combo.jpg">
+          <img class="im2" src="images/walk.jpg" >
+          <img class="im3" src="images/buy.jpg">
+          <p>
+              Fesitvel offer,Triple more Combo offer
+          </p>
+        <div class="b">BUY 2 <br>
+            GET 4 OFF% <br>
+            OFFER CLOSES SOON 
+        </div>   
+    </section>
+    <section id="contact">
+        <div class="con1">
+           <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <!--<h4>Copyright &copy;</h4>-->
+        </div>
+    </section>
+    <section  class="end" id="scroll-btn">
+        <a class="top" href="#">Back to top</a>
+</section>
+   
+  <!---<section class="bg" id="contact"> 
+        <div class="con1">
+           <h5>Follow us</h5>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-pinterest" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+             <h4>Copyright &copy;</h4>
+        </div>
+</section>   
+<section  class="end"id="scroll-btn">
+        <a class="top" href="#">Back to top</a>
+</section>-->
+</body>
+ <script>
+     function validate(){
+     var username=document.getElementById("email").value;
+     var password=document.getElementById("pass").value;
+     if(username=="harishbalaji016@gmail.com" && password=="harish"){
+         alert("Login successfully!!");
+     }
+     else{
+         alert("Login is Failed!!");
+     }
+     if(password!="harish"){
+         alert("Your password is invalid");
+     }
+     if(username!="harishbalaji016@gmail.com"){
+         alert("Your username is invalid");
+     }
+    
+    }
+
+ </script>
+</html>
